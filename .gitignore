@@ -1,0 +1,25 @@
+# Rust build artifacts
+/target/
+
+# IDE / editor
+.idea/
+.vscode/
+*.iml
+
+# Local environment and secrets — never commit a key
+.env
+.env.*
+.credentials
+.credentials.yaml
+credentials.yaml
+*.log
+
+# The committed template is safe: it holds no key.
+!credentials.example
+
+# OS noise
+.DS_Store
+Thumbs.db
+
+# Reports produced by a local run, not part of the project
+Current-News-*.md

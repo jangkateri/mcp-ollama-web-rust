@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "ollama-web": {
+      "command": "<INSTALL_DIR>/mcp-ollama-web-rust.exe",
+      "env": {
+        "OLLAMA_HOST": "https://ollama.com",
+        "OLLAMA_CREDENTIALS_FILE": "<INSTALL_DIR>/.credentials"
+      }
+    }
+  }
+}
